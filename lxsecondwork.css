@@ -1,0 +1,18 @@
+div{
+	width: 100px;
+	height: 50;
+}
+div:hover{
+	border:9px double black;
+}
+p:hover::after{
+	 position: absolute; 
+	 left: 15px;
+	 top: 70px; 
+	 padding: 5px;
+	 background-color: #0095ff; 
+	 border-radius: 5px; 
+	 color: #fff;
+	 content: attr(apper); z-index: 2; 
+	 width: 70px;
+}
